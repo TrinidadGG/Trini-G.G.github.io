@@ -10970,3 +10970,17 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+/* Interests Cards */
+.interest-card {
+    background-color: #f8f9fa;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.interest-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.interest-icon {
+    color: var(--bs-primary);
+}
